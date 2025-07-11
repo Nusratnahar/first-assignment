@@ -72,3 +72,26 @@ nav ul a{
     text-align: left;
     align-items: center;
 }
+.user-img img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+    
+.user:hover{
+    background-color:cornflowerblue;
+    transform:scale(1.06);
+}
+/* second-bg */
+.webflow-section img {
+     height: 400px;
+     width: 840px; 
+     border-radius: 70px;
+     padding-top: 20px; 
+     margin: 150 261;
+}
+.webflow-section{
+    text-align: center;
+    /* margin: 170px 150px; */
+    
+}
