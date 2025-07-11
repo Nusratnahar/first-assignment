@@ -44,6 +44,31 @@ nav ul a{
     gap: 160px;
   
 }
+.review-section{
+    margin: 145px 150px;
+}
+.review-section-title{
+    text-align: center;
+}
+.users-card{
+    display: flex;
+    gap: 20px;
+    
+}
+.user{
+    background-color: #fef9f9;
+    border: 2px crimson;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 15px;
+    text-align: left;
+    height: 250px;
+    width: 350px;
+    padding: 30px;
+    margin-top: 55px;
+}
 .user-info{
     display: flex;
+    gap: 20px;
+    text-align: left;
+    align-items: center;
 }
