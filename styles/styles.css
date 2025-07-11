@@ -95,3 +95,15 @@ nav ul a{
     /* margin: 170px 150px; */
     
 }
+/* form */
+.form{
+    display: flex;
+    margin: 100px 150px;
+    gap: 120px;
+    justify-content: center;
+
+}
+
+.form-details input, .form-details textarea{
+    display: block;
+}
