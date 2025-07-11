@@ -1,11 +1,80 @@
+/* fonts-colors */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.primary-clr{
+    color: #4E47FF;
+}
+.secondary-clr{
+    color: #252432;
+}
+.third-clr{
+    color: #706D98;
+}
+
+
+.logo{
+    font-weight: bold;
+    font-size: 40px;
+}
+.banner-description{
+    font-weight: 900;
+    font-size: 290px;
+}
+
+button{
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#4E47FF;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+.btn-s{
+    width: 175px;
+    height: 50px;
+}
+.action-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #000000;
+}
+.action-description{
+     font-size: 30px;
+    font-weight: 400;
+    color:  #252432;
+}
+.btn-l{
+     width: 180px;
+    height: 40px;
+    font-size: 13px;
+}
+
+.section-act{
+    text-align: left;
+    padding-top: 80px;
+}
 .banner{
     background-image: url(../Assets/Hero-bg.png);
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 .banner-content{
     text-align: center;
-    margin: 290px 268px 152px;;
+    padding: 120px 268px 160px; 
 }
 nav ul{
     display: flex;
@@ -15,14 +84,15 @@ nav ul{
 nav ul li{
     list-style: none;
 }
-nav ul a{
+nav ul li a{
     text-decoration: none;
     font-size: 20px;
 }
 .action{
     display: flex;
-    margin: 116px 180px;
-    gap: 250px;
+    margin: 116px 200px;
+    gap: 150px;
+    
 }
 .action-img img{
     height:330px;
@@ -31,19 +101,38 @@ nav ul a{
 }
 .section-productive{
     text-align: center;
-    width:1140px ;
-    height:306px ;
+    width:940px ;
+    height:280px ;
     margin: 116px 150px;
-    padding: 60px 150px;
-    background-color: #5955e06b;
+    padding: 60px 150px ;
+    background-color: #5955e02b;
     border-radius: 25px;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 0;
 }
 .section-detail{
     display: flex;
     justify-content: center;
-    gap: 160px;
-  
+     gap: 160px; 
+    font-size: 70px;
+    font-weight: bold;
+    color: #4E47FF;
+
+      
 }
+.section-detail p{
+    font-size: 20px;
+    color: #252432;
+    margin-top: 0; 
+   
+}
+.section-detail h1{
+    margin-bottom: 0;
+}
+
 .review-section{
     margin: 145px 150px;
 }
@@ -101,6 +190,7 @@ nav ul a{
     margin: 100px 150px;
     gap: 120px;
     justify-content: center;
+    color: #000000;
 
 }
 
